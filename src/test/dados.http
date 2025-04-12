@@ -1,0 +1,12 @@
+@url = http://upgraded-disco-77vxx6xvwvfpw6x-8080.app.github.dev
+
+GET {{url}}/api/v1/dados
+
+###
+POST {{url}}/api/v1/dados
+Content-Type: application/json
+
+{
+    "referencia" : "G1",
+    "valor" : 42
+}
